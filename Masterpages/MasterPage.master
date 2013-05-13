@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPages_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Project Home Page</title>
+    <link href="Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .newStyle1
+        {
+            font-family: Andalus;
+            font-size: large;
+          
+        }
+        .auto-style1
+        {
+            font-family: Andalus;
+            font-size: xx-large;
+         
+            color: #3333CC;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+                 
+        <div>
+            <header>
+                <h1 class="auto-style1"><strong>Cuong Le's ASP.NET Website in Windows Azure</strong></h1>
+                
+                <nav>
+                   
+                     <asp:Menu ID="NavMenu" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False" DynamicEnableDefaultPopOutImage="True" Font-Bold="False" Font-Size="Large" DynamicHorizontalOffset="20">
+                         <DynamicMenuItemStyle ItemSpacing="20px" />
+                        
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+                </nav>
+            </header>
+            <div id="treev">
+
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
+                </asp:TreeView>
+
+            </div>
+            <div id="smp">
+                <asp:SiteMapPath ID="smp1" runat="server">
+                    <RootNodeStyle Font-Bold="True" />
+                </asp:SiteMapPath>
+
+            </div>
+            <div class="frame">
+                <asp:ContentPlaceHolder ID="cpMain" runat="server">
+                </asp:ContentPlaceHolder>
+
+            
+           
+        </div>
+    </form>
+</body>
+</html>

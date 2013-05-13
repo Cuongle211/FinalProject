@@ -1,0 +1,13 @@
+﻿.label {
+font-size:large;
+font-weight:bold;
+}
+
+
+.wrong{
+color: red;
+}
+
+.right{
+color: green;
+}

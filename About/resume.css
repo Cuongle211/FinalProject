@@ -1,0 +1,53 @@
+﻿
+.profileimage
+{ 
+    height: 200px;
+    float: right;
+    padding-top: 3em;
+}
+.auto-style2
+        {
+            color: #660066;
+        }
+        .auto-style3
+        {
+            color: #660066;
+            font-size: large;
+        }
+        .auto-style4
+        {
+            font-size: large;
+        }
+       
+.h2centerblue {
+    color: blue;
+   
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 2px;
+}
+
+.h3purple {
+    color: purple;
+    font-weight: bold;
+    font-size: larger;
+}
+/*
+td
+{
+    font-family: 'Overlock SC', cursive;
+    font-size: 14px;
+    color: #5C007A;
+    text-shadow: 1px 1px 1px 	#C266E0;
+    text-align: left;
+    */
+
+
+.arrow
+{
+    list-style-image: url('arrow_bullet.gif');
+    font-family: 'Overlock SC', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    
+}

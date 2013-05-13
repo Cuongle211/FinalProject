@@ -1,0 +1,111 @@
+﻿body {
+background-image:url('/images/paper.gif');
+background-repeat: repeat;
+}
+nav {
+    display: inline-block;
+  margin: 0 auto;
+  
+}
+/*
+td
+{
+    font-family: 'Overlock SC', cursive;
+    font-size: 14px;
+    color: #5C007A;
+    text-shadow: 1px 1px 1px #C266E0;
+    text-align: left;
+}*/
+#NavMenu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #2C74BA;
+  
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    background-color:#7FFFD4;
+}
+
+li.dynamic:hover {
+    background-color: #7FFFD4;
+  
+}
+
+.static {
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+       
+}
+
+
+    .static:nth-child(5) {
+    margin-right: 20px;
+    padding-right: 0px;
+    }
+
+.level1 {
+    background-color: #ACACFF;
+}
+
+.level2 {
+    background-color: #BF94AA;
+}
+.level3 {
+    background-color: #BF94AA;
+}
+
+#treev {
+    padding-right: 10px;
+    float: left;
+}
+
+.frame {
+    float: left;
+    padding: 15px;
+    width: 720px;
+     border: 4px ridge black;
+}
+
+form {
+    width: 1000px;
+    margin: 0 auto;
+    
+ 
+	}
+
+
+header > h1 {
+    text-align: center;
+}
+
+
+#smp {
+    margin-bottom: 20px;
+}
+
+#TreeView1 a {
+color: white;
+}
+
+#TreeView1 {
+    width: 166px;
+    background-color: #2C74BA;
+
+    
+    
+}
+#TreeView1 a:visited  {
+    
+    color: white;
+   
+}
+
+#smp1 a:visited {
+color:#2C74BA;
+}

@@ -1,0 +1,35 @@
+﻿article
+{
+    background-color: #dddd88;
+    width: 480px;
+    color: white;
+    height: 210px;
+}
+
+.sec
+{
+    background-color: brown;
+    margin: 20px 0px 20px;
+    height: 72px;
+    color: white;
+    width: 480px;
+    top: -2px;
+    left: 1px;
+}
+
+aside
+{
+    width: 240px;
+    background-color: #D685FF;
+    height: 210px;
+    color: white;
+}
+
+footer
+{
+    width: 720px;
+    background-color: #70B8FF;
+    height: 19.2px;
+    text-align: center;
+    color: white;
+}

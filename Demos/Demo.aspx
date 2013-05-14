@@ -11,8 +11,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cpMain" Runat="Server">
     <h2 class="auto-style4">Demos of Layouts</h2>
-    <p>In this section you will find a web form, and 3 different layout options. The web form is completely written in HTML5. The 3 layouts
-        absolute, static, and float demonstrate how position CSS can be used to achieve similar effects.
+    <p> Welcome to Demo pages
     </p>
 </asp:Content>
 
